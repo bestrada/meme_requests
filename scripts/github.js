@@ -81,11 +81,12 @@
   });
 
   // now listen for dom changes in case new .js-write-bucket appears
+  /*
   var commentObserver = new WebKitMutationObserver(function onMutate(mutations) {
     debugger;
   });
   _.each($("table.file-code.file-diff"), function eachCodeTable(table) {
     commentObserver.observe(table, { childList: true });
   });
-
+  */
 })();
