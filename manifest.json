@@ -1,0 +1,26 @@
+{
+  "manifest_version" : 2,
+  "name" : "meme requests",
+  "description" : "Generate friendly meme's for your pull requests in github.",
+  "version" : "0.6",
+  "icons": {
+    "16": "images/doge16.png",
+    "48": "images/doge48.png",
+    "128": "images/doge128.png"
+  },
+
+  "permissions": [
+    "https://api.imgflip.com/"
+  ],
+
+
+  "content_scripts" : [
+    {
+      "matches" : ["https://github.com/flixster", "https://github.com/flixster/*"],
+      "css" : ["styles/github.css"],
+      "js" : ["scripts/jquery-2.1.1.min.js", "scripts/underscore.js", "scripts/backbone.js", "scripts/github.js"]
+    }
+  ],
+
+  "web_accessible_resources": ["images/appicon.png", "formFields.html", "images/fry.jpg", "images/so_doge.jpg", "images/success_kid.jpg", "images/yuno.jpg"]
+}

@@ -1,0 +1,17 @@
+.header-logo-invertocat .octicon-mark-github:before { content:''; }
+.header-logo-invertocat .octicon-mark-github {
+    background:transparent url('chrome-extension://iiiabkbocdghgldlbogfhfbeincckfcg/images/appicon.png') no-repeat center center;
+    background-size:24px 25px;
+}
+
+.flx_fields .images { float:left; }
+.flx_fields .images img { opacity:0.5; }
+.flx_fields .images img:hover, .flx_fields .images img.active {
+  opacity:1.0;
+  cursor:pointer;
+}
+.flx_fields .submission { float:right; }
+.flx_fields input {
+  margin:0px 8px 8px 8px;
+  width:195px;
+}
